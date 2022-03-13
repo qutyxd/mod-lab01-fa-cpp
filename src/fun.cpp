@@ -70,7 +70,7 @@ unsigned int faStr3(const char *str) {
     int startIndex = -1;
     int endIndex = -1;
     double Sum = 0;
-    whle (str[i] != '\0') {
+    while (str[i] != '\0') {
         if (!isspace(str[i])) {
             inWordFlag = true;
             if (startIndex == -1) {
